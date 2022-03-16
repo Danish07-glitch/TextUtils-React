@@ -1,0 +1,16 @@
+.btnk{
+    border: 1px solid black;
+    border-radius: 47%;
+    margin: 0 2px 0px 2px;
+    padding: 0px 25px 10px 4px;
+    cursor: pointer;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#pink{
+    background-color: pink;
+}
