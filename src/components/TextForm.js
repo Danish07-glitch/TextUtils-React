@@ -55,7 +55,7 @@ export default function TextForm(props) {
   </div>
   <div className="container" style={{color:props.mode==='dark'?'white':'black'}}>
       <h2>Text Summary</h2>
-      <p id='memo'>{text.replace(/\n/g).split(" ").filter((value) => value!="").length} words and {text.length} characters</p>
+      <p id='memo'>{text.replace(/\n/g).split(" ").filter((value) => value!="").length} words and {text.replace(/\n/g,'').length} characters</p>
       <h3>Preview</h3>
       <p>{text.length>0?text:"Enter something to preview"}</p>
       
